@@ -7,11 +7,12 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = function(array) {
-  arrayHead = array[0];
+  const arrayHead = array[0];
   return arrayHead;
 };
 
+// TEST CODE
 assertEqual(head([5, 6, 7]), 5);
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([]), undefined)
+assertEqual(head([]), undefined);
 assertEqual(head([45]), 45);
