@@ -10,7 +10,7 @@ const eqArrays = function(actualArray, expectedArray) {
   }
   return arrayMatch;
 }
-const assertArrayEqual = function(actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
