@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@cilantrodreams/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the Lodash library for Lighthouse Labs.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/cilantrodreams/lotide.git"
   },
-  "author": "",
+  "author": "Thomas Ngo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cilantrodreams/lotide/issues"
